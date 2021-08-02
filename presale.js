@@ -1,3 +1,30 @@
+/**
+         _                   _           _
+        / /\                /\ \        / /\
+       / /  \              /  \ \      / /  \
+      / / /\ \            / /\ \ \    / / /\ \__
+     / / /\ \ \          / / /\ \_\  / / /\ \___\
+    / / /  \ \ \        / /_/_ \/_/  \ \ \ \/___/
+   / / /___/ /\ \      / /____/\      \ \ \
+  / / /_____/ /\ \    / /\____\/  _    \ \ \
+ / /_________/\ \ \  / / /______ /_/\__/ / /
+/ / /_       __\ \_\/ / /_______\\ \/___/ /
+\_\___\     /____/_/\/__________/ \_____\/
+
+Advance Encryption Standard Finance.
+
+Website:aestandard.finance
+Email:team@aestandard.finance
+Bug Bounty:team@aestandard.finance
+
+License: MIT
+
+Original Network: Polygon (Matic)
+
+The NODE script handling presale transactions in real-time. ran on our web servers.
+
+**/
+
 const express = require('express');
 const mysql = require('mysql');
 const ethers = require('ethers');
